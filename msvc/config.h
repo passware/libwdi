@@ -35,12 +35,12 @@
 
 /* embed libusb0 driver files from the following location */
 #ifndef LIBUSB0_DIR
-#define LIBUSB0_DIR "D:/libusb-win32"
+// #define LIBUSB0_DIR "D:/libusb-win32"
 #endif
 
 /* embed libusbK driver files from the following location */
 #ifndef LIBUSBK_DIR
-#define LIBUSBK_DIR "D:/libusbK/bin"
+// #define LIBUSBK_DIR "D:/libusbK/bin"
 #endif
 
 /* embed user defined driver files from the following location */
@@ -49,7 +49,7 @@
 #endif
 
 /* 32 bit support */
-#define OPT_M32
+// #define OPT_M32
 
 /* 64 bit support */
 #define OPT_M64
@@ -58,7 +58,7 @@
 //#define ENABLE_DEBUG_LOGGING
 
 /* Debug message logging (toggable) */
-#define INCLUDE_DEBUG_LOGGING
+// #define INCLUDE_DEBUG_LOGGING
 
 /* Message logging */
-#define ENABLE_LOGGING 1
+// #define ENABLE_LOGGING 1
